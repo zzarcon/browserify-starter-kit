@@ -1,0 +1,37 @@
+{
+  "name": "browserify-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzarcon/browserify-starter-kit.git"
+  },
+  "keywords": [
+    "browserify",
+    "karma",
+    "phantomjs",
+    "mocha",
+    "watchify",
+    "kit",
+    "starter-kit",
+    "boilerplate"
+  ],
+  "author": "zzarcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzarcon/browserify-starter-kit/issues"
+  },
+  "homepage": "https://github.com/zzarcon/browserify-starter-kit",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-browserify": "^3.0.3",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0",
+    "watchify": "^2.4.0"
+  }
+}

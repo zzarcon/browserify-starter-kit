@@ -1,0 +1,19 @@
+---
+language: node_js
+
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - "export PHANTOMJS_BIN=`which phantomjs`"
+  - "npm config set spin false"
+  - "npm install -g npm@^2"
+
+install:
+  - npm install
+
+script:
+  - make tests
