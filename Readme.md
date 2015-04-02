@@ -12,6 +12,7 @@ A simple boilerplate for writing and testing your Javascript libraries.
 * **Mocha** fun, simple and flexible testing framework
 
 # Run
+
 * `make server`
 * `make watch`
 * open [http://localhost:8000](http://localhost:8000)
